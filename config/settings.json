@@ -1,0 +1,16 @@
+{
+    "api": {
+        "genderize": "https://api.genderize.io",
+        "ai_endpoint": "base_url",
+        "chat_sender": "url_to_send_chat",
+    },
+    "chat": {
+        "youtube_url": "livestream_url",
+        "trigger_prefixes": ["veeresh", "!veeresh", "#veeresh"]
+    },
+    "ai": {
+        "model": "provider-3/gpt-4o-mini",
+        "temperature": 0.7,
+        "max_tokens": 10
+    }
+}
