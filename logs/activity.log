@@ -1,0 +1,20 @@
+2025-02-04 15:31:26,874 utils           INFO     Starting Ai-Veeresh...
+2025-02-04 15:31:27,075 utils           INFO     Starting chat listener for https://www.youtube.com/watch?v=PdpbwkH_rdE
+2025-02-04 15:31:28,888 utils           INFO     Processing message from Kümâr Yädüvanshi: hii veeresh
+2025-02-04 15:31:30,284 httpcore.connection DEBUG    connect_tcp.started host='api.ddc.xiolabs.xyz' port=443 local_address=None timeout=5.0 socket_options=None
+2025-02-04 15:31:32,499 httpcore.connection DEBUG    connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000018C59FCB950>
+2025-02-04 15:31:32,501 httpcore.connection DEBUG    start_tls.started ssl_context=<ssl.SSLContext object at 0x0000018C59DAD550> server_hostname='api.ddc.xiolabs.xyz' timeout=5.0
+2025-02-04 15:31:32,736 httpcore.connection DEBUG    start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000018C59FCB710>
+2025-02-04 15:31:32,736 httpcore.http11 DEBUG    send_request_headers.started request=<Request [b'POST']>
+2025-02-04 15:31:32,737 httpcore.http11 DEBUG    send_request_headers.complete
+2025-02-04 15:31:32,737 httpcore.http11 DEBUG    send_request_body.started request=<Request [b'POST']>
+2025-02-04 15:31:32,737 httpcore.http11 DEBUG    send_request_body.complete
+2025-02-04 15:31:32,737 httpcore.http11 DEBUG    receive_response_headers.started request=<Request [b'POST']>
+2025-02-04 15:31:33,999 httpcore.http11 DEBUG    receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Alt-Svc', b'h3=":443"; ma=2592000'), (b'Content-Length', b'321'), (b'Content-Type', b'application/json'), (b'Date', b'Tue, 04 Feb 2025 10:01:32 GMT'), (b'Server', b'Caddy'), (b'Server', b'uvicorn')])
+2025-02-04 15:31:34,002 httpcore.http11 DEBUG    receive_response_body.started request=<Request [b'POST']>
+2025-02-04 15:31:34,003 httpcore.http11 DEBUG    receive_response_body.complete
+2025-02-04 15:31:34,003 httpcore.http11 DEBUG    response_closed.started
+2025-02-04 15:31:34,004 httpcore.http11 DEBUG    response_closed.complete
+2025-02-04 15:31:37,464 utils           INFO     Message part sent: Hii Kümâr! Kya aap kaise hain? Aapko kis cheez ki madad chahiye?
+2025-02-04 15:31:37,467 utils           INFO     Successfully sent 1 message parts
+2025-02-04 15:31:37,469 utils           INFO     Processing message from Kümâr Yädüvanshi: veeresh thik hun, tum batawo gazar ka halwa kaise banaye?
