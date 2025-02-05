@@ -11,7 +11,7 @@ Veeresh is an intelligent AI bot designed for YouTube live streams. It can:
 - **Image Generation**: Create art with `/imagine [prompt]`
 - **Memory System**: Remembers past conversations
 - **Multi-Language Support**: Works in multiple languages
-- **Open Source**: Free for YouTube subscribers
+- **Open Source**: Free for All.
 
 ## Installation 🛠️
 
