@@ -9,7 +9,7 @@ class AIResponder:
     def __init__(self, config):
         self.config = config
         self.client = OpenAI(
-            api_key=os.getenv("AI_API_KEY") or "Free-For-YT-Subscribers-@DevsDoCode-WatchFullVideo",
+            api_key=os.getenv("AI_API_KEY") or "direct-api-key",
             base_url=config["api"]["ai_endpoint"]
         )
         self.text_model = config["ai"]["model"]
@@ -38,7 +38,7 @@ class AIResponder:
         """Generate image response"""
         try:
             response = self.client.images.generate(
-                model="flux-dev",
+                model="image-generator-model-name",
                 prompt=prompt,
                 size="1024x1024"
             )

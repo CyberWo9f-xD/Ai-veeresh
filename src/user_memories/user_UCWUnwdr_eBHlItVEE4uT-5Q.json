@@ -1,0 +1,28 @@
+{
+  "memories": [
+    {
+      "context": [
+        {
+          "role": "user",
+          "content": "hii veeresh"
+        },
+        {
+          "role": "assistant",
+          "content": "Hmm, my circuits are a bit fuzzy today. Could you rephrase that?"
+        }
+      ]
+    },
+    {
+      "context": [
+        {
+          "role": "user",
+          "content": "hii veeresh"
+        },
+        {
+          "role": "assistant",
+          "content": "Hmm, my circuits are a bit fuzzy today. Could you rephrase that?"
+        }
+      ]
+    }
+  ]
+}

@@ -12,7 +12,7 @@ class ChatSender:
         self.headers = {
             "Content-Type": "application/json",
             "Accept": "application/json",
-            "Origin": "https://aiveereshytapichat.netlify.app"
+            "Origin": "<origin-url>"
         }
         self.max_length = 200  # YouTube chat character limit
         self.delay = 1  # Seconds between messages
